@@ -1,0 +1,23 @@
+table{
+    border: solid 3px black;
+    border-collapse: collapse;
+}
+td{
+    border: solid 3px black;
+    padding: 10px;
+    
+}
+th,tfoot{
+    text-align: center;
+    padding: 10px;
+    border: solid 3px black;
+    background-color: lightblue;
+}
+#thd{
+    text-align: center;
+    border: none;
+    
+}
+#col1{
+    background-color: sandybrown;
+}

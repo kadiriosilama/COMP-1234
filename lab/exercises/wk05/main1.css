@@ -1,0 +1,30 @@
+header{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    h1 {
+        color: green;
+        font-style:italic;
+    }
+    h2{
+        color: green;
+        font-style:italic;
+    }
+    
+    ol>li {
+        font-size: 1.5em;
+    }
+li:first-child{
+        background-color: lightblue;
+    }
+    li:nth-child(even){
+        background-color: yellow;
+    }
+li:last-child{
+        background-color: pink;
+    
+    }
+
+    footer{
+        border: black 2px;
+    }

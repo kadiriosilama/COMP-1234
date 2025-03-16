@@ -1,0 +1,172 @@
+
+    /*margin: 0;*/
+    /*margin: 2em;*/
+    /*margin: 2rem;*/
+    /*margin: 10px;*/
+
+#ncolour{
+    background-color: lightgray
+}
+body{
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loremp{
+    font-family: "Times New Roman", Times, serif;
+}
+/*h3{*/
+/*    font-size: 150%;*/
+/*    color: blue;*/
+/*}*/
+/*#lorem{*/
+/*    font-size: 150%;*/
+/*    color: blue;*/
+/*}*/
+section h3{
+    font-size: 150%;
+    color: blue;
+}
+/*[href]{*/
+/*    border: dotted red 4px;*/
+/*}*/
+[href="https://www.w3schools.com"]{
+    border: dotted red 4px;
+}
+[href^=".."]{
+    border: blue solid 4px;
+}
+[href$="template.html"]{
+    background-color: yellow;
+}
+/*header p{*/
+/*    background-color: yellow;*/
+/*}*/
+header>p{
+    background-color: yellow;
+}
+section>h3+p{
+    background-color: pink;
+}
+h4+ul>li:first-child{
+    color: red;
+}
+h4+ul>li:last-child{
+    color: green;
+}
+h4+ul>li:nth-child(3){
+    color: yellow;
+}
+h4+ul>li:nth-child(2){
+    color: orange;
+}
+#lorem:first-letter{
+    font-size: 200%;
+    color: red;
+}
+h1{
+    color:purple;
+    font-size: 350%;
+    text-shadow: 4px 4px 4px black;
+}
+h2, h3, h4, h5, h6{
+    color:purple;
+}
+#wrapper{
+    background-color: tan;
+    width: 1024px;
+    border: solid purple 6px;
+    margin: 10px auto;
+}
+header, main, footer{
+    border: dotted green 4px;
+    margin: 1.5em;
+    padding: 2em;
+}
+.buttons{
+    text-decoration: none;
+    border: solid purple 4px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rebeccapurple,violet);
+    color: tan;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+nav{
+    position: sticky;
+    top:18px;
+    margin-left: 20px;
+}
+header>p{
+    font-size: 10px;
+}
+header{
+    text-align: center;
+    background-image: url("../img/ahmed-abbas-2Is2dU_umfk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header>img{
+    position: absolute;
+    /*right: 400px;*/
+    top:5px;
+    left: 5px;
+}
+menu>ul{
+    display: block;
+    background-color: purple;
+    margin: auto;
+    padding: 10px 10px;
+}
+menu>ul>li{
+    display: inline;
+    margin: 0px 15px auto;
+    float: center;
+    overflow: hidden;
+    
+}
+nav{ 
+    margin: 1 1px;
+    position: sticky;
+    top: 2px;
+}
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: purple;
+    color: white;
+}
+nav>ul>li>a {
+display: block;
+color: tan;
+text-decoration: none;
+padding: 10px 10px;
+text-align: center;
+}
+nav li{
+    float: left;
+}
+nav li>a>:hover{
+    background-color: rebeccapurple;
+}
+li>ul>li>:nth-child(2n-1){
+    background-color: lightblue;
+    width: 50%;
+}
+li>ul>li>:nth-child(2n){
+    background-color: lightgoldenrodyellow;
+    width: fit-content;
+}
+/*a>img,a+img {
+    float: right;
+}
+figure{
+    clear: both;
+} */
+h3+figure{
+    border: purple dotted 4px;
+    margin: 0 auto;
+}
