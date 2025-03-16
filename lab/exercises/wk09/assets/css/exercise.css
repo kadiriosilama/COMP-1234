@@ -1,0 +1,48 @@
+header{
+    border: solid 4px red;
+    background-color: rgb(153, 214, 247);
+    height: 200px;
+    margin: 5px;
+
+}
+main{
+    border: solid 4px red;
+    background-color: rgb(153, 214, 247);
+    float: left;
+    height: 200px;
+    width: 100vh;
+    margin: 5px;
+    padding-right: 12.5px;
+
+}
+article{
+    border: solid 4px red;
+    background-color: rgb(153, 214, 247);
+    float: right;
+    height: 200px;
+    width: 50vh;
+    margin: 5px;
+   
+}
+aside {
+    border: solid 4px red;
+    background-color: rgb(153, 214, 247);
+    float: right;
+    width: 50vh;
+    height: 200px;
+    margin: 5px;
+
+    
+
+}
+footer{
+    border: solid 4px red;
+    background-color: rgb(153, 214, 247);
+    clear: both;
+    height: 200px;
+    margin: 5px;
+
+}
+h3{
+    text-decoration: solid;
+}

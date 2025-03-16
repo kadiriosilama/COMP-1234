@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic HTML and CSS web page. Please fill this section in.">
+    <meta name="keywords" content="Fill in the keywords as well.">
+    <meta name="author" content="Leonard Zajaczkowski">
+    <title>Basic HTML and CSS Web Page for the week 6 Lab</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+
+        #idatt{
+            color: red;
+        }
+        #bcolour{
+            background-color: yellow;
+        }
+        .ccolour{
+            color: blue;
+        }
+        .secondclass{
+            border: solid green 2px;
+        }
+        body{
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body id="ncolour" data-new-gr-c-s-check-loaded="14.1045.0" data-gr-ext-installed="">
+    <div id="wrapper">
+        <header id="top">
+            <img src="assets/img/gbc_logo.jpg" alt="logo" width="100">
+<!--            <p>Test text</p>-->
+            <h1>Basic HTML and CSS Web Page for the week 6 Lab</h1>
+            <p>Photo by <a href="https://unsplash.com/@ahmed12abbas?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Ahmed Abbas</a> on <a href="https://unsplash.com/photos/fcdEr-UlZqU?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a>
+            </p>
+<!--            <div>-->
+<!--&lt;!&ndash;                <p><a href="#bottom">go to the bottom of the page</a></p>&ndash;&gt;-->
+<!--            </div>-->
+        </header>
+        <nav>
+<!--            <a class="buttons" href="#lorem">Lorem Ipsum Section</a>-->
+<!--            <a class="buttons" href="#bottom">Bottom of the page</a>-->
+<!--            <a class="buttons" href="#top">Top of the page</a>-->
+
+            <ul>
+                <li><a href="#lorem">Lorem Ipsum Section</a></li>
+                <li><a href="#bottom">Bottom of the page</a></li>
+                <li><a href="#top">Top of the page</a></li>
+            </ul>
+
+        </nav>
+        <main>
+            <aside>
+                <a class="buttons" href="#lorem">Lorem Ipsum Section</a>
+                <a class="buttons" href="#bottom">Bottom of the page</a>
+                <a class="buttons" href="#top">Top of the page</a>
+            </aside>
+            <section>
+                <h2 class="ccolour secondclass">Block and inline tags</h2>
+                <p>This is a plain text block tag. </p>
+                <strong>bold inline element</strong>
+                <strong>This is another strong inline element.</strong>
+                <p>
+                    This is a block element with
+                    <strong>
+                        bold inline element.
+                    </strong>
+                </p>
+                <br>
+                <hr>
+                <br>
+                <h2>Attributes</h2>
+                <p id="idatt" class="ccolour">This id attribute allows us to uniquely identify an element/tag
+                    and allows you to select that element with CSS or Javascript.</p>
+                <p id="bcolour">This id attribute allows us to uniquely identify an element/tag
+                    and allows you to select that element with CSS or Javascript.</p>
+                <p class="ccolour secondclass">The class attribute allows us to identify more than one
+                    element/tag to apply changes to all class elements with CSS
+                    or Javascript.</p>
+                <p class="ccolour">The class attribute allows us to identify more than one
+                    element/tag to apply changes to all class elements with CSS
+                    or Javascript.</p>
+                <br>
+                <hr>
+                <br>
+                <h3>Links/Anchors</h3>
+                <a href="https://www.georgebrown.ca/current-students/websites-apps-and-technical-support/tech-support">
+                    GBC Helpdesk
+                </a>
+                <p>
+                    One of the better HTML site is
+                    <a href="https://www.w3schools.com">W3 schools</a>
+                </p>
+                <p>This is my <a href="../wk02/template.html">Template file</a>
+                    using a document relative reference.</p>
+                <p>This is my <a href="/comp1234/lab/exercises/wk02/template.html">Template file</a>
+                    using a root relative reference.</p>
+                <p>This is my <a href="/index.html">index.html file</a>
+                    using a root relative reference.</p>
+                <p>This is my <a href="../../../../index.html">index.html file</a>
+                    using a document relative reference.</p>
+                <br>
+                <hr>
+                <br>
+                <h3>Lists</h3>
+                <h4>Unordered List</h4>
+                <ul>
+                    <li>Apple</li>
+                    <li>Orange</li>
+                    <li>Banana</li>
+                    <li>Kiwi</li>
+                    <!--            <li><a href="https://www.w3schools.com">W3 schools</a></li>-->
+                </ul>
+                <h4>Ordered List</h4>
+                <ol style="list-style-type: decimal-leading-zero">
+                    <li>Apple</li>
+                    <li>Orange</li>
+                    <li>Banana</li>
+                    <li>Kiwi</li>
+                    <li>
+                        <ul>
+                            <li>Apple</li>
+                            <li>Orange</li>
+                            <li>Banana</li>
+                            <li>Kiwi</li>
+                            <li><a href="https://www.w3schools.com">W3 schools</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <br>
+<!--            <hr>-->
+            <br>
+
+<!--            section>h3#lorem.loremp{Lorem Ipsum}+(p>lorem30)*5-->
+            <article>
+                <h3 id="lorem" class="loremp">Lorem Ipsum</h3>
+                <hr>
+                <p class="loremp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam cumque cupiditate
+                    distinctio,
+                    ducimus est eum ipsam iste molestiae natus numquam officiis omnis qui quo rerum, sed soluta tenetur
+                    ullam.</p>
+                <p class="loremp">Ab architecto assumenda consequatur cumque dolorem molestiae omnis perferendis quidem
+                    tenetur? Adipisci
+                    aliquid asperiores aspernatur commodi dolor et, eum iure, magnam minus natus odio placeat quae repellat
+                    sed, sunt veritatis!</p>
+                <p class="loremp">Accusamus aliquam, animi architecto atque cum cupiditate dignissimos earum eligendi eum
+                    harum inventore
+                    laboriosam magnam minus optio pariatur placeat praesentium quam quidem rerum saepe sint tempore totam,
+                    ullam veritatis voluptates.</p>
+                <p class="loremp">Ab accusantium ad animi aspernatur commodi deserunt distinctio error magni, maiores nam
+                    quos sed totam
+                    velit voluptate voluptatum. Amet animi, aut cumque hic maxime nam odio qui tempore unde vero?</p>
+                <p class="loremp">A accusamus aliquam blanditiis consequatur cum cumque delectus dignissimos dolore enim est
+                    eum explicabo
+                    facilis fugiat, id ipsa, iusto neque nisi nulla optio, porro quas reprehenderit rerum sequi unde ut.</p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <h3>images</h3>
+            <figure>
+                <a href="https://en.wikipedia.org/wiki/Cat"><img src="assets/img/cat.jpg" alt="cat winking" title="cat winking" width="288" height="192"></a>
+                <img src="/comp1234/lab/exercises/wk03/assets/img/cat.jpg" alt="cat winking" width="200" height="150">
+            </figure>
+            <figure>
+                <img src="assets/img/folders_comp1234.png">
+                <figcaption>Fig. 01 folder structure</figcaption>
+            </figure>
+        </main>
+
+        <footer id="bottom">
+            <br>
+            <hr>
+            <br>
+            <p><a class="buttons" href="#top">go to the top of the page</a></p>
+            <p>copyright © 2023 by 25 ¢ corp.</p>
+        </footer>
+    </div>
+    <script src="https://my.gblearn.com/js/loadscript.js"></script><div id="gblearn_message_holder"><a title="Validate this page" href="javascript:void(0)" onclick="GBLEARN_TESTER.validatePage(this.form)"><img src="https://my.gblearn.com/img/HTML5_Logo_2561.png" alt="html5 validator"></a><a href="https://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:99px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"></a><br>This page was last modified on 2023-11-01, 10:58:55 a.m.</div><form method="post" action="https://validator.w3.org/check" enctype="multipart/form-data" target="validator" id="xyxgbvalidator" style="display: none;"><textarea id="fragment" name="fragment"></textarea></form>
+
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>

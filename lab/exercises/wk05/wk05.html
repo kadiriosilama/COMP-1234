@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic html web page. We are going to 
+    learn about img element, anchor tag, relative and absolute path, heading and paragraphs">
+    <meta name="keywords" content="HTML, list, image, sematric, link">
+    <meta name="author" content="Osilama Kadiri">
+    <title> Basic HTML web page for week 5 lab</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--use # to tell the computer it is an ID-->
+    <style>
+        
+
+        #idatt {
+                 color: red;
+        }
+
+        #bcolor{
+            background-color: yellow;
+        }
+
+        .ccolor {
+            border: solid green 2px;
+        }
+    </style>
+</head>
+
+<body id="ncolour">
+
+<header id="top">    
+    <h1>Basic HTML web page for lab 4  </h1>
+    <p><a href="#bottom"> go to the bottom page</a></p>
+
+</header>  
+
+   <main> <h2 class="ccolor secondclass"> block and inline tags</h2>
+    
+    <P> This is a plain text block element.</P>
+    <strong> bold inline elelment</strong>
+    <strong> This is another stong inline element</strong>
+
+
+    <p>
+        This is a block element 
+        <strong>
+            with bold  inline element.
+        </strong>
+    </p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Attributes</h2>
+    <p id="idatt"><!--ID is unique and can only be used once with the same name --> 
+        This id allows us to uniquely identify an element/tag
+        and allows us to select that element is CSS or Javascript
+    </p>
+
+    <p id="bcolor"><!--ID is unique and can only be used once with the same name --> 
+        This id allows us to uniquely identify an element/tag
+        and allows us to select that element is CSS or Javascript
+    </p>
+
+
+    <p class="ccolor"><!--ID is unique and can only be used once with the same name --> 
+        This class allows us to uniquely identify an element/tag
+        and allows us to select that element is CSS or Javascript
+    </p>
+
+    <p class="ccolor"><!--ID is unique and can only be used once with the same name --> 
+        This class allows us to uniquely identify an element/tag
+        and allows us to select that element is CSS or Javascript
+    </p>
+
+    <h3> Links </h3>
+
+    <a href="https://www.georgebrown.ca/teaching-and-learning-exchange/d2l-brightspace/faculty/brightspace-access">
+        GBC Helpdesk
+    </a>
+
+    <p>
+        One of a better HTML site is
+        <a href="https://www.w3schools.com">W3 schools web page</a>
+
+    </p>
+
+    <p>
+        This is my
+        <a href="../WK02/template.html">template file</a>
+        using a document relative path.
+    </p>
+
+    <p>
+        This is my
+        <a href="/comp1234/lab/Exercises/WK02/template.html"> Template file.</a>
+        using the root relative path
+    </p>
+
+
+    <p>
+        This is my
+        <a href="/index.html"> index.html</a>
+        using the root relative path
+    </p>
+
+
+    <p>
+        This is my
+        <a href="../../../../index.html">index.html</a>
+        using a document relative path
+    </p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>Lists</h3>
+    <h4>unorderlist</h4>
+    <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Kiwi</li>
+        <li><a href="https://www.w3schools.com"> w3schools</a></li>
+    </ul>
+ 
+    <ol style="list-style-type: decimal-leading-zero;">
+
+    
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+        <li>Kiwi</li>
+        <li><a href="https://www.w3schools.com"> w3schools</a></li>
+        <li>
+
+            <ul>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Banana</li>
+                <li>Kiwi</li>
+                <li><a href="https://www.w3schools.com"> w3schools</a></li>
+
+          </ul>   
+          
+        </li> 
+
+    </ol>
+    <br>
+    <hr>
+    <br>
+    section>h3#lorem.loremp{Lorem Ipsum}+(p>lorem30)*5
+    <section>
+        <h3 id="lorem" class="loremp">Lorem Ipsum</h3>
+        <p class="loremp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corrupti iste error ut perferendis repudiandae libero quam similique at eum odit molestiae voluptatum eos, nisi veniam iure commodi? Distinctio, nihil.</p>
+        <p class="loremp">Vero reiciendis dicta doloribus id. Fugiat harum facere soluta? Est explicabo, fuga ipsa voluptatem voluptatibus distinctio, et dolor corporis veniam architecto officiis cumque? Minima, culpa inventore pariatur aut quod nulla.</p>
+        <p class="loremp">Quos cupiditate exercitationem, tempora, culpa corporis, fugit minima et porro quisquam saepe voluptas eum cumque amet non aliquid officia aperiam est ipsa voluptatem magnam! Rem quae debitis consequuntur. Iste, doloremque.</p>
+        <p class="loremp">Ipsam facere, doloribus unde sunt vero qui iure sit eligendi voluptatem tenetur obcaecati harum, libero laborum quae optio esse laudantium. Quisquam eaque cupiditate earum cum libero provident accusantium dolorum inventore.</p>
+        <p class="loremp">Odio consequatur alias perferendis doloremque deleniti officiis id accusamus ut architecto error natus, iste modi ullam reiciendis itaque dolore in veniam nam commodi praesentium voluptas. Illo hic nesciunt dignissimos adipisci.</p>
+    </section>
+    <h3>Images</h3>
+
+
+    <a href="https://en.wikipedia.org/wiki/Cat"><img src="assets/img/cat.jpg" alt="My cat" title="My cat" width="288" height="192"></a>
+   <img src="/comp1234/lab/Exercises/WK03/assest/cat.jpg" alt="My cat" title="My cat" width="200" height="150">
+
+
+   <figure>
+       <img src="assets/img/folders_comp1234.png" >
+       <figcaption> Fig. 01 folder structure</figcaption>
+   </figure>
+  </main>
+
+    <footer id="bottom">
+    <br>
+    <hr>
+    <br>
+
+        <p> <a href="#top">go to the top page</a></p>
+        <p>Copyright &copy; 2023 by 25 &cent; corp.</p>
+    </footer>
+
+    <script src=https://my.gblearn.com/js/loadscript.js></script>
+</body>
+</html>
